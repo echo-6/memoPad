@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>My Secret Memo</title>
+</head>
+
+<body>
+  <div class="l_wrapper">
+    <header class="header">
+      <h1>✏️ My Secret Memo 🗒️ </h1>
+    </header>
+    <main>
+      <section class="memo-main">
+        <h2 class="toggle">📍 new memo</h2>
+        <div class="get-memo" style="display: none;">
+          <input type="text" name="" id="title" placeholder="제목을 입력해주세요.">
+          <textarea name="" id="content" cols="30" rows="10" style="resize: none;" placeholder="내용을 입력해주세요."></textarea>
+          <button onclick="saveNote()" class="btn-save">저장하기</button>
+        </div>
+      </section>
+      <section class="memo-list">
+        <ul id="display"></ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
