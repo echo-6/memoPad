@@ -166,7 +166,7 @@ p {
 }
 
 .memo-wrap {
-  width: 530px;
+  max-width: 530px;
   padding-bottom: 20px;
   margin-bottom: 10px;
 }
